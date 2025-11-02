@@ -1,0 +1,112 @@
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /home/ubuntu/package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /home/ubuntu/coursesf25_v10-27-2025/package-lock.json
+
+   ▲ Next.js 15.5.5
+   - Environments: .env.local, .env
+
+   Creating an optimized production build ...
+ ⚠ Compiled with warnings in 17.9s
+
+./components/assignments/data/keyAssignment01Brief.js
+Attempted import error: 'SlimCopyBlock' is not exported from '@/components/assignments/SlimCopyBlock' (imported as 'SlimCopyBlock').
+
+Import trace for requested module:
+./components/assignments/data/keyAssignment01Brief.js
+./app/key01/page.js
+
+ ✓ Compiled successfully in 26.0s
+ ✓ Linting and checking validity of types    
+ ✓ Collecting page data    
+ ✓ Generating static pages (80/80)
+ ✓ Collecting build traces    
+ ✓ Finalizing page optimization    
+
+Route (app)                                 Size  First Load JS    
+┌ ○ /                                      886 B         139 kB
+├ ○ /_not-found                            995 B         103 kB
+├ ○ /about                                 127 B         102 kB
+├ ○ /camino-blog                         11.6 kB         150 kB
+├ ○ /cis240                              1.78 kB         151 kB
+├ ○ /cis240/class_assignments            1.51 kB         114 kB
+├ ○ /cis240/code                         1.51 kB         114 kB
+├ ○ /cis240/hero                          2.5 kB         115 kB
+├ ○ /cis240/hw_assignments                2.5 kB         115 kB
+├ ○ /cis240/key01                         3.6 kB         106 kB
+├ ○ /cis240/quiz                            3 kB         116 kB
+├ ○ /cis240/resources                    2.93 kB         152 kB
+├ ○ /cis240/site                          4.6 kB         117 kB
+├ ○ /cis355                              7.15 kB         156 kB
+├ ○ /cis355_01                           1.78 kB         151 kB
+├ ○ /cis355_01/class_assignments         1.51 kB         114 kB
+├ ○ /cis355_01/code                      1.51 kB         114 kB
+├ ○ /cis355_01/hw_assignments            1.17 kB         114 kB
+├ ○ /cis355_01/resources                 1.17 kB         114 kB
+├ ○ /cis355_02                           1.78 kB         151 kB
+├ ○ /cis355_02/class_assignments         1.51 kB         114 kB
+├ ○ /cis355_02/code                      1.51 kB         114 kB
+├ ○ /cis355_02/hw_assignments            1.17 kB         114 kB
+├ ○ /cis355_02/resources                 2.94 kB         152 kB
+├ ○ /cis355/class_assignments            1.51 kB         114 kB
+├ ○ /cis355/code                         1.51 kB         114 kB
+├ ○ /cis355/hw_assignments               1.17 kB         114 kB
+├ ○ /cis355/quiz                            3 kB         116 kB
+├ ○ /cis355/resources                    3.46 kB         152 kB
+├ ○ /clips                                1.2 kB         139 kB
+├ ○ /cpanel02                              123 B         109 kB
+├ ○ /cpanel0a                              122 B         109 kB
+├ ○ /cpanel1e                              123 B         109 kB
+├ ○ /cpanel2e                              121 B         109 kB
+├ ○ /docker                              1.97 kB         104 kB
+├ ○ /filtergallery                       2.04 kB         104 kB
+├ ○ /gallery                             2.49 kB         141 kB
+├ ○ /gcis555                             1.78 kB         151 kB
+├ ○ /gcis555/class_assignments           1.51 kB         114 kB
+├ ○ /gcis555/code                        1.51 kB         114 kB
+├ ○ /gcis555/hw_assignments              1.17 kB         114 kB
+├ ○ /gcis555/resources                   2.11 kB         140 kB
+├ ○ /gcis667                             1.78 kB         151 kB
+├ ○ /gcis667/class_assignments           1.51 kB         114 kB
+├ ○ /gcis667/code                        1.51 kB         114 kB
+├ ○ /gcis667/hw_assignments              1.17 kB         114 kB
+├ ○ /gcis667/quiz                           3 kB         116 kB
+├ ○ /gcis667/resources                   3.23 kB         152 kB
+├ ○ /hero                                3.95 kB         142 kB
+├ ○ /javascript/dom-array                1.11 kB         103 kB
+├ ○ /key01                               2.85 kB         141 kB
+├ ○ /key01/config                        2.88 kB         152 kB
+├ ○ /key01/env                           2.24 kB         104 kB
+├ ○ /key01/intro                         2.93 kB         105 kB
+├ ○ /key01/npm                           2.62 kB         105 kB
+├ ○ /key01/quiz                            877 B         103 kB
+├ ○ /key01/stage-1                       7.48 kB         156 kB
+├ ○ /key01/stage-2                         463 B         156 kB
+├ ○ /key01/stage-3                         456 B         154 kB
+├ ○ /key01/stage-4                         392 B         102 kB
+├ ○ /key02                               2.85 kB         141 kB
+├ ○ /key02/config                        2.88 kB         152 kB
+├ ○ /key02/env                           2.24 kB         104 kB
+├ ○ /key02/intro                          2.9 kB         105 kB
+├ ○ /key02/npm                           2.62 kB         105 kB
+├ ○ /key02/quiz                            877 B         103 kB
+├ ○ /key02/stage-1                       5.48 kB         154 kB
+├ ○ /key02/stage-2                         463 B         156 kB
+├ ○ /key02/stage-3                         455 B         154 kB
+├ ○ /key02/stage-4                         394 B         102 kB
+├ ○ /scis240                               886 B         139 kB
+├ ○ /scis355_01                            886 B         139 kB
+├ ○ /scis355_02                            886 B         139 kB
+├ ○ /sgcis555                              886 B         139 kB
+├ ○ /sgcis667                              886 B         139 kB
+├ ○ /storage                             9.79 kB         159 kB
+└ ○ /supa                                  801 B         156 kB
++ First Load JS shared by all             102 kB
+  ├ chunks/1255-ba098675cb6696ab.js      45.7 kB
+  ├ chunks/4bd1b696-f785427dddbba9fb.js  54.2 kB
+  └ other shared chunks (total)          1.96 kB
+
+
+○  (Static)  prerendered as static content
